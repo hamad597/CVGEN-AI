@@ -1,0 +1,5 @@
+{
+  "name": "Hands-Free CV Generator",
+  "description": "Create professional CVs using voice commands and AI-powered suggestions. Features multiple templates, image uploads, and print-ready layouts.",
+  "requestFramePermissions": ["microphone"]
+}
