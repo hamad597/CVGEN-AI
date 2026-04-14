@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Hands-Free CV Generator AI
 
-# Run and deploy your AI Studio app
+A professional, AI-powered CV generator that allows you to build your resume using manual input, AI assistance, or hands-free voice commands.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/41346448-1de5-4c53-af71-8162aefa70f5
+- **Hands-Free Voice Control**: Use voice commands to set your name, email, add skills, and more.
+- **AI-Powered Content**:
+  - **AI Summary**: Generate a professional summary based on your details.
+  - **AI Improve**: Enhance your work experience descriptions using Gemini AI.
+  - **Skill Suggestions**: Get relevant skill recommendations based on your job title.
+- **Multiple Templates**: Choose between Modern, Classic, Minimal, and Creative designs.
+- **Real-Time Preview**: See your changes instantly as you type or speak.
+- **Print to PDF**: Optimized A4 layout for professional printing and PDF generation.
+- **Dark Mode**: Comfortable editing experience in any lighting.
+- **Image Upload**: Add a professional profile picture to your CV.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **AI**: Google Gemini API (@google/genai)
+- **Icons**: Lucide React
+- **Animations**: Motion (formerly Framer Motion)
+- **Components**: Base UI / shadcn-like architecture
 
+## 📦 Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up your environment variables in `.env`:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📄 License
+
+MIT
